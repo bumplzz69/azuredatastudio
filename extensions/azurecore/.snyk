@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - azure-arm-resource > ms-rest-azure > async > lodash:
+        patched: '2019-07-04T08:18:54.210Z'
+    - azure-arm-sql > ms-rest-azure > async > lodash:
+        patched: '2019-07-04T08:18:54.210Z'
+    - azure-arm-resource > ms-rest-azure > adal-node > async > lodash:
+        patched: '2019-07-04T08:18:54.210Z'
+    - azure-arm-sql > ms-rest-azure > adal-node > async > lodash:
+        patched: '2019-07-04T08:18:54.210Z'
