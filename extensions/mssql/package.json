@@ -15,7 +15,9 @@
   ],
   "scripts": {
     "compile": "gulp compile-extension:mssql-client",
-    "update-grammar": "node ../../build/npm/update-grammar.js Microsoft/vscode-mssql syntaxes/SQL.plist ./syntaxes/sql.tmLanguage.json"
+    "update-grammar": "node ../../build/npm/update-grammar.js Microsoft/vscode-mssql syntaxes/SQL.plist ./syntaxes/sql.tmLanguage.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "bytes": "^3.1.0",
@@ -30,7 +32,8 @@
     "uri-js": "^4.2.2",
     "vscode-extension-telemetry": "^0.0.15",
     "vscode-nls": "^4.0.0",
-    "webhdfs": "^1.1.1"
+    "webhdfs": "^1.1.1",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {},
   "contributes": {
@@ -902,5 +905,6 @@
         }
       ]
     }
-  }
+  },
+  "snyk": true
 }
