@@ -71,7 +71,13 @@
     "opener": "^1.4.3",
     "service-downloader": "github:anthonydresser/service-downloader#0.1.5",
     "vscode-extension-telemetry": "0.0.18",
-    "vscode-nls": "^3.2.1"
+    "vscode-nls": "^3.2.1",
+    "snyk": "^1.230.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
