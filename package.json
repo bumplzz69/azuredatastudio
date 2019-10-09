@@ -52,7 +52,7 @@
     "graceful-fs": "4.1.11",
     "html-query-plan": "git://github.com/anthonydresser/html-query-plan.git#2.6",
     "http-proxy-agent": "^2.1.0",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^3.0.0",
     "iconv-lite": "0.4.23",
     "jquery": "3.1.0",
     "jschardet": "1.6.0",
