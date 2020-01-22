@@ -333,14 +333,6 @@ ansi_up@^3.0.0:
   resolved "https://registry.yarnpkg.com/ansi_up/-/ansi_up-3.0.0.tgz#27f45d8f457d9ceff59e4ea03c8e6f13c1a303e8"
   integrity sha1-J/Rdj0V9nO/1nk6gPI5vE8GjA+g=
 
-anymatch@^1.3.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
-  integrity sha512-0XNayC8lTHQ2OI8aljNCN3sSx6hsr/1+rlcDAotXJR7C1oZZHCNsfpbKwMjRA3Uqb5tF1Rae2oloTr4xpq+WjA==
-  dependencies:
-    micromatch "^2.1.5"
-    normalize-path "^2.0.0"
-
 append-buffer@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/append-buffer/-/append-buffer-1.0.2.tgz#d8220cf466081525efea50614f3de6514dfa58f1"
@@ -3817,9 +3809,9 @@ html-comment-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
   integrity sha1-ZouTd26q5V696POtRkswekljYl4=
 
-"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.4":
-  version "2.4.0"
-  resolved "git://github.com/anthonydresser/html-query-plan.git#e8e0ded622d7afd6070f291101566ecaaca32cc5"
+"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.6":
+  version "2.5.0"
+  resolved "git://github.com/anthonydresser/html-query-plan.git#c524feb824e4960897ad875a37af068376a2b4a3"
 
 "htmlparser2@>= 3.7.3 < 4.0.0", htmlparser2@^3.9.1:
   version "3.9.2"
@@ -5494,7 +5486,7 @@ nan@^2.0.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
   integrity sha512-ltW65co7f3PQWBDbqVvaU1WtFJUsNW7sWWm4HINhbMQIyVyzIeyZ8toX5TC5eeooE6piZoaEh4cZkueSKG3KYw==
 
-nan@^2.0.9, nan@^2.3.0:
+nan@^2.0.9:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
   integrity sha1-+zxZ1F/k7/4hXwuJD4rfbrMtIjI=
@@ -5503,6 +5495,11 @@ nan@^2.1.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
   integrity sha1-2Vv3IeyHfgjbJ27T/G63j5CDrUY=
+
+nan@^2.10.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
+  integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
 nan@^2.6.2:
   version "2.6.2"
@@ -8746,12 +8743,19 @@ vsce@1.46.0:
     yauzl "^2.3.1"
     yazl "^2.2.2"
 
-vscode-chokidar@1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-1.6.2.tgz#4db06e2d963befe42dd44434212f5b8606b53831"
-  integrity sha1-TbBuLZY77+Qt1EQ0IS9bhga1ODE=
+vscode-anymatch@^1.3.0:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/vscode-anymatch/-/vscode-anymatch-1.3.3.tgz#0613d31a949c8025473bbdad848d219f47a44f86"
+  integrity sha512-LQ4vF4BWb9gwAvbMtN+3HC4HKDxLd+ZyWmAjACOdD05O/ZMcgvvnjO24GseEIQ6cWn8gW+Ft08gHFihnQy1eSw==
   dependencies:
-    anymatch "^1.3.0"
+    micromatch "^2.1.5"
+    normalize-path "^2.0.0"
+
+vscode-chokidar@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-1.6.4.tgz#03e5b5f755a1e73b4f15310e66f59b11673fbdd2"
+  integrity sha512-2A4YQsY2Mm6VAxushKwJTIWCxnDe+1BPTSa+4zQGWcFvyu5W1q+WCp+hTIG6eZ+hc7JHdrHeKzZ0mgUsUFwQgQ==
+  dependencies:
     async-each "^1.0.0"
     glob-parent "^2.0.0"
     inherits "^2.0.1"
@@ -8759,20 +8763,21 @@ vscode-chokidar@1.6.2:
     is-glob "^2.0.0"
     path-is-absolute "^1.0.0"
     readdirp "^2.0.0"
+    vscode-anymatch "^1.3.0"
   optionalDependencies:
-    vscode-fsevents "0.3.8"
+    vscode-fsevents "0.3.9"
 
 vscode-debugprotocol@1.31.0:
   version "1.31.0"
   resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.31.0.tgz#8467eeabeea65f52da5ac03b03c18e10e8b95eb4"
   integrity sha512-li8S5Z6eDoskVRxiGThaUSTw/WhevA6XcoprTZNvhwfqm1bLAb+bxqNPN6Qj2crh1XOEQOn5cL0DaZsDT2kxyQ==
 
-vscode-fsevents@0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-0.3.8.tgz#389647fa2f6daffedf1b40132a5bb96ac6501521"
-  integrity sha1-OJZH+i9tr/7fG0ATKlu5asZQFSE=
+vscode-fsevents@0.3.9:
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-0.3.9.tgz#edbb66ea2c4eeb102b9194bb602e73bd9512c64c"
+  integrity sha512-ykvsVNFXeSc8aBNzwp0hIq41i80njAfpCwbQ3h04x69VC4xSK/PqVStNlOg7oRnrGHu8acchZv++k6WHXpSp1A==
   dependencies:
-    nan "^2.3.0"
+    nan "^2.10.0"
 
 vscode-nls-dev@3.0.7:
   version "3.0.7"
