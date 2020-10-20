@@ -1057,6 +1057,14 @@ chart.js@^2.6.0:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
 
+chart.js@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.9.4.tgz#0827f9563faffb2dc5c06562f8eb10337d5b9684"
+  integrity sha512-B07aAzxcrikjAPyV+01j7BmOpxtQETxTSlQ26BEYJ+3iUkbNKaOJ/nDbT6JjyqYxseM0ON12COHYdU2cTIjC7A==
+  dependencies:
+    chartjs-color "^2.1.0"
+    moment "^2.10.2"
+
 chartjs-color-string@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/chartjs-color-string/-/chartjs-color-string-0.5.0.tgz#8d3752d8581d86687c35bfe2cb80ac5213ceb8c1"
@@ -3817,9 +3825,9 @@ html-comment-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
   integrity sha1-ZouTd26q5V696POtRkswekljYl4=
 
-"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.4":
-  version "2.4.0"
-  resolved "git://github.com/anthonydresser/html-query-plan.git#e8e0ded622d7afd6070f291101566ecaaca32cc5"
+"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.6":
+  version "2.5.0"
+  resolved "git://github.com/anthonydresser/html-query-plan.git#c524feb824e4960897ad875a37af068376a2b4a3"
 
 "htmlparser2@>= 3.7.3 < 4.0.0", htmlparser2@^3.9.1:
   version "3.9.2"
