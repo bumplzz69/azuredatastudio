@@ -548,11 +548,6 @@ async-each@^1.0.0:
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
   integrity sha1-GdOGodntxufByF04iu28xW0zYC0=
 
-async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
-  integrity sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
-
 async@1.x, async@^1.4.0, async@^1.5.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
@@ -1089,13 +1084,13 @@ chownr@^1.0.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
   integrity sha1-4qdQQqlVGQi+vSW4Uj1fl2nXkYE=
 
-chrome-remote-interface@^0.25.3:
-  version "0.25.3"
-  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.25.3.tgz#b692ae538cd5af3a6dd285636bfab3d29a7006c1"
-  integrity sha512-+GJLyocWojJbo9ODkRGKkMA/jMgzVZtCUOpYSeVXYlPTWkcjUqsV4PeTgLWbzRy8TIRj69xYm0Gcy2Oo07AkYA==
+chrome-remote-interface@0.28.2:
+  version "0.28.2"
+  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.28.2.tgz#6be3554d2c227ff07eb74baa7e5d4911da12a5a6"
+  integrity sha512-F7mjof7rWvRNsJqhVXuiFU/HWySCxTA9tzpLxUJxVfdLkljwFJ1aMp08AnwXRmmP7r12/doTDOMwaNhFCJsacw==
   dependencies:
     commander "2.11.x"
-    ws "3.3.x"
+    ws "^7.2.0"
 
 chromium-pickle-js@^0.2.0:
   version "0.2.0"
@@ -3817,9 +3812,9 @@ html-comment-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
   integrity sha1-ZouTd26q5V696POtRkswekljYl4=
 
-"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.4":
-  version "2.4.0"
-  resolved "git://github.com/anthonydresser/html-query-plan.git#e8e0ded622d7afd6070f291101566ecaaca32cc5"
+"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.6":
+  version "2.5.0"
+  resolved "git://github.com/anthonydresser/html-query-plan.git#c524feb824e4960897ad875a37af068376a2b4a3"
 
 "htmlparser2@>= 3.7.3 < 4.0.0", htmlparser2@^3.9.1:
   version "3.9.2"
@@ -8361,11 +8356,6 @@ uglify-to-browserify@~1.0.0:
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
   integrity sha1-bgkk1r2mta/jSeOabWMoUKD4grc=
 
-ultron@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.0.tgz#b07a2e6a541a815fc6a34ccd4533baec307ca864"
-  integrity sha1-sHoualQagV/Go0zNRTO67DB8qGQ=
-
 unc-path-regex@^0.1.0, unc-path-regex@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
@@ -8505,12 +8495,12 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-v8-inspect-profiler@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/v8-inspect-profiler/-/v8-inspect-profiler-0.0.8.tgz#4d6bedb7c3d1bfc69e5bfdc2ded3d6784a5a76a6"
-  integrity sha1-TWvtt8PRv8aeW/3C3tPWeEpadqY=
+v8-inspect-profiler@^0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/v8-inspect-profiler/-/v8-inspect-profiler-0.0.21.tgz#2ded4fd59508f52d5887d3ae2bbace3e33509c41"
+  integrity sha512-6lo22vhua2Zg2Cq8Wtc2FELlTA+pmu+5epyPX65jNVAbAoKXY/XI3t33CreYiK8THKgkMeoWeviAxcJaefjyrg==
   dependencies:
-    chrome-remote-interface "^0.25.3"
+    chrome-remote-interface "0.28.2"
 
 v8flags@^2.0.2:
   version "2.1.1"
@@ -8935,14 +8925,10 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@3.3.x:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.2.tgz#96c1d08b3fefda1d5c1e33700d3bfaa9be2d5608"
-  integrity sha512-t+WGpsNxhMR4v6EClXS8r8km5ZljKJzyGhJf7goJz9k5Ye3+b5Bvno5rjqPuIBn5mnn5GBb7o8IrIWHxX1qOLQ==
-  dependencies:
-    async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
+ws@^7.2.0:
+  version "7.4.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
+  integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
 
 xml-name-validator@^1.0.0:
   version "1.0.0"
