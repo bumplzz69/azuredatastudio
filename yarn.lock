@@ -3817,9 +3817,9 @@ html-comment-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
   integrity sha1-ZouTd26q5V696POtRkswekljYl4=
 
-"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.4":
-  version "2.4.0"
-  resolved "git://github.com/anthonydresser/html-query-plan.git#e8e0ded622d7afd6070f291101566ecaaca32cc5"
+"html-query-plan@git://github.com/anthonydresser/html-query-plan.git#2.6":
+  version "2.5.0"
+  resolved "git://github.com/anthonydresser/html-query-plan.git#c524feb824e4960897ad875a37af068376a2b4a3"
 
 "htmlparser2@>= 3.7.3 < 4.0.0", htmlparser2@^3.9.1:
   version "3.9.2"
@@ -7480,9 +7480,10 @@ slice-ansi@0.0.4:
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
   integrity sha1-7b+JA/ZvfOL46v1s7tZeJkyDGzU=
 
-"slickgrid@github:anthonydresser/SlickGrid#2.3.29":
-  version "2.3.29"
-  resolved "https://codeload.github.com/anthonydresser/SlickGrid/tar.gz/40b88f10d36d35f350838d1a2142c4b790701709"
+slickgrid@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/slickgrid/-/slickgrid-2.4.0.tgz#01b1204fc3338be1b62091b8debacd5e53836c29"
+  integrity sha1-AbEgT8Mzi+G2IJG43rrNXlODbCk=
   dependencies:
     jquery ">=1.8.0"
     jquery-ui ">=1.8.0"
