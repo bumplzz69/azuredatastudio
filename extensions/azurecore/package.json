@@ -164,8 +164,8 @@
 		"hasAzureResourceProviders": true
 	},
 	"dependencies": {
-		"azure-arm-resource": "^7.0.0",
-		"azure-arm-sql": "^5.0.1",
+		"azure-arm-resource": "^7.4.0",
+		"azure-arm-sql": "^5.7.0",
 		"request": "2.88.0",
 		"vscode-nls": "^4.0.0"
 	},
